@@ -74,6 +74,8 @@ p{
     font-weight: 600;
     color: white;
     -webkit-text-stroke: 1px black;
+    -moz-text-stroke: 1px black;
+    -o-text-stroke: 1px black;
     font-size: 24px;
 }
 
@@ -81,6 +83,23 @@ p span{
     color: rgb(224, 39, 39);
 }
 
-p::after{
-    content: " :";
+footer{
+    position: absolute;
+    bottom: 20px;
+    opacity: .8;
+    letter-spacing: 3px;
+}
+
+footer p{
+    position: relative;
+    font-size: 14px;
+    color: rgba(245, 245, 245, 0.586);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.7);
+    -moz-text-stroke: 1px rgba(0, 0, 0, 0.7);;
+    -o-text-stroke: 1px rgba(0, 0, 0, 0.7);;
+    transform: translateY(50px);
+}
+
+footer p i{
+    color: rgb(255, 0, 0);
 }
