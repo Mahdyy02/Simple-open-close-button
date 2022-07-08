@@ -102,4 +102,14 @@ footer p{
 
 footer p i{
     color: rgb(255, 0, 0);
+    animation: beat .8s steps(1) infinite;
 }
+
+@keyframes beat {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: .5;
+    }
+  }
